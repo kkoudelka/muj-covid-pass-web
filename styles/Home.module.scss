@@ -1,0 +1,14 @@
+@import "_mixins.scss";
+
+.imageHeader {
+  height: 500px;
+}
+
+.descriptionText {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.imgScreenshot {
+  height: 350px;
+}

@@ -1,0 +1,7 @@
+// MDB PRO
+@import "./scss/mdb.pro.scss";
+
+$my-theme-primary: #2362a2;
+$my-theme-secondary: #ecae1a;
+$my-light-theme: mdb-light-theme($my-theme-primary, $my-theme-secondary);
+@include mdb-theme($my-light-theme);
