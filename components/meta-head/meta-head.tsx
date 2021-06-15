@@ -11,7 +11,7 @@ interface IProps {
 const MetaHead: React.FC<IProps> = ({ description, title, image }) => {
   const { t, i18n } = useTranslation();
 
-  const baseDomain = "https://dev.mujcovidpass.cz/";
+  const baseDomain = "https://dev.mujcovidpass.cz/img/";
 
   return (
     <Head>
